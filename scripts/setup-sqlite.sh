@@ -1,0 +1,2 @@
+#!/bin/bash
+sqlite3 -line ./db/belay-me-landing-page.db 'CREATE TABLE signups(id int primary key, email text not null, signup_dt text not null, validation_sent_dt not null, validation_received_dt not null);'
