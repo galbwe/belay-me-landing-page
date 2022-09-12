@@ -19,7 +19,7 @@ export default function Hero(
             <div className="mt-12 lg:mt-0">
                 <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">{heading}</h1>
                 <p className="text-slate-500 font-medium mb-12">Know who will belay you before you get to the gym. Join our community of Denver climbers and plan your next killer session today!</p>
-                <form method="post">
+                <form method="post" action="/api/email">
                     <input className="form-control p-2 mx-3" type="email" id="email" name="email" placeholder="Your Email"/>
                     <button className="inline-block px-7 py-3 mr-2 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" type="submit">Sign Up</button>
                 </form>
