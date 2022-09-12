@@ -1,4 +1,5 @@
-export default function handler(req, res) {
+// TODO: find the right types for req and res
+export default function handler(req: any, res: any) {
     // Get data submitted in request's body.
     const body = req.body
 
